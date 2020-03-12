@@ -3,17 +3,14 @@
 /* 回答はここに書いてね */
 
 /* 詳細度をあげる */
-.q6 .q6_1_box {
+.q6_1_box {
   text-align: center;
 }
 
-.q6_1_leftwrap {
+.q6_1_left_text {
   display: inline-block;
   background-color: #e6f2ff;
-  width: 90px;
-}
-
-.q6_1_leftwrap p {
+  /* width: 90px; */
   padding: 10px;
 }
 

@@ -2,18 +2,21 @@
 
 /* 回答はここに書いてね */
 
-.nine {
-  position: fixed;
-  left: 10px;
-  top: 10px;
-  background-color: #2b69a3;
+.number {
   width: 100px;
   height: 100px;
   font-size: 30px;
   font-weight: bold; 
   text-align: center;
   line-height: 100px;
-  
+  position: absolute;
+}
+
+.nine {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  background-color: #2b69a3;
 }
 
 .math_box {
@@ -22,17 +25,6 @@
   width: 500px;
   height: 500px;
   margin: 0 auto;
-  
-}
-
-.one,.two,.three,.four,.five,.six,.seven,.eight {
-  width: 100px;
-  height: 100px;
-  font-size: 30px;
-  font-weight: bold; 
-  text-align: center;
-  line-height: 100px;
-  position: absolute;
 }
 
 .one {

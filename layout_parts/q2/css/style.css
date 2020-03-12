@@ -9,25 +9,19 @@
   box-sizing: border-box;
 }
 
-.q2__content_first_text {
+.q2__content__text {
   font-size: 18px;
   line-height: 22px;
   /* 折り返し制御↓ */
   word-break: break-all;
 }
 
-.q2__content_second_text {
-  font-size: 18px;
-  line-height: 22px;
-  word-break: break-all;
-}
-
-.balloon {
+.left_img {
   float: left;
   margin: 0px 20px 10px 0px;
 }
 
-.candy {
+.right_img {
   float: right;
   margin: 0px 0px 10px 20px ;
 }

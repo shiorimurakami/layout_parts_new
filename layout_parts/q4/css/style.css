@@ -11,10 +11,11 @@
 .graph_box {
   display: table;
   width: 100%;
+  margin-bottom: 20px;
 }
 
-.graph_box:first-child {
-  margin-bottom: 20px;
+.graph_box:last-child {
+  margin-bottom: 0px;
 }
 
 .graph {

@@ -4,6 +4,7 @@
 
 .most__outside__box {
   width: 100%;
+  /* セルの大きさを等分にしてくれる */
   table-layout: fixed;
 }
 
@@ -11,7 +12,7 @@
   background-color: #ecf1f2;
 }
 
-th,td {
+.most__outside__box th,.most__outside__box td {
   border: solid #dce1e2 1px;
 }
 
@@ -19,7 +20,7 @@ th,td {
   border-top: dashed #000 2px;
 }
 
-th {
+.most__outside__box th {
   color: #fff;
   font-size: 18px;
   line-height: 26px;
