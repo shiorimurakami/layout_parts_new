@@ -2,4 +2,86 @@
 
 /* 回答はここに書いてね */
 
+/* 詳細度をあげる */
+.q6 .q6_1_box {
+  text-align: center;
+}
+
+.q6_1_leftwrap {
+  display: inline-block;
+  background-color: #e6f2ff;
+  width: 90px;
+}
+
+.q6_1_leftwrap p {
+  padding: 10px;
+}
+
+.q6_1_rightwrap p {
+  background-color: #e6f2ff;
+  width: 90px;
+  margin: auto;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.q6_2_table_box {
+  display: table;
+}
+
+.q6_2_table_wrap {
+  display: table-cell;
+  /*vertical-align: middle;は垂直でまんな  */
+  vertical-align: middle;
+  text-align: center;
+}
+
+.q6_2_table_wrap p {
+  background-color: #fff;
+  padding: 10px;
+  /* 要素が広がっちゃうのでinline要素に固定する */
+  display: inline-block;
+}
+
+.q6_2_flex_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q6_2_flex_wrap p {
+  background-color: #fff;
+  padding: 10px;
+}
+
+
+.q6_2_position_f_wrap {
+  position: relative;
+}
+
+.q6_2_position_f {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 110px;
+  height: 30px;
+  margin: auto;
+  /* background-color: #e6f2ff; */
+}
+
+.q6_2_position_v_wrap {
+  position: relative;
+}
+
+.q6_2_position_v {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  padding: 10px;
+  /* background-color: #e6f2ff; */
+}
+
 /* 回答はここに書いてね */
