@@ -2,9 +2,126 @@
 
 /* 回答はここに書いてね */
 
-.q7__text {
-  float: left;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
+
+.q7__float__text {
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-right: 50px;
+}
+
+.q7__float__text:last-child {
+  margin-right: 0px;
+}
+
+.q7__table__inner {
+  display: table;
+}
+
+.q7__table__box {
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+  padding-right: 50px;
+}
+
+.q7__table__box:last-child {
+  padding-right: 0px;
+}
+
+.q7__inlineblock__inner {
+  font-size: 0;     /* inline-blockをかける要素の親要素にこれをつけると要素の間の隙間がなくなる */
+}
+
+.q7__inlineblock__text {
+  font-size: 16px;    /* ここで再度フォント指定しないと消える… */
+  width: 225px;
+  display: inline-block;      /* インラインブロック要素にする */
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.q7__inlineblock__text:last-child {
+  margin-right: 0px;
+}
+
+.q7__flex__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.q7__flex__box {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.q7__inlineblock_margin__inner {
+  font-size: 0;     /* inline-blockをかける要素の親要素にこれをつけると要素の間の隙間がなくなる */
+}
+
+.q7__inlineblock_margin__box {
+  font-size: 16px;    /* ここで再度フォント指定しないと消える… */
+  display: inline-block;      /* インラインブロック要素にする */
+  box-sizing: border-box;
+  vertical-align: text-top;
+  /* width: 100%; */
+  /* margin-right: 50px; */
+}
+
+.inlineblock_margin__text__f {
+  width: 300px;
+  margin-right: 50px;
+}
+
+.inlineblock_margin__text__v {
+  width: 100%;
+  margin-left: -350px;
+  /* width: calc(100% - 350px); */
+}
+
+.q7__inlineblock_margin__text_v {
+  margin-left: 350px;
+}
+
+/* .demo-wrapper {
+  width: 100%;
+  border: 5px solid #fcc;
+  text-align: center;
+  overflow: hidden;
+}
+
+.demo-wrapper p {
+  margin: 0;
+  padding: 1em;
+}
+
+.demo-side {
+  float: left;
+  width: 240px;
+  background: #ccc;
+}
+
+.demo-demo-main {
+  float: left;
+  widh: 100%;
+  margin-left: -240px;
+  background: #16a085;
+}
+
+.demo-demo-main p {
+  margin-left: 240px;
+} */
+
+
+
 
 
 
